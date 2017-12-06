@@ -24,6 +24,19 @@ get_header(); ?>
 
 		<?php endif; ?>
 
+    <?php if (is_page( '11, 12, 13 APRIL 2018' )): ?>
+			<div id="preloader">
+				PUT YOUR PRELOADER CODE HERE MY FRIEND
+				<br>
+				whith love
+			</div>
+		 <script>
+		   (function($){
+			   			$("#preloader").delay(5000).fadeOut(500);
+		   })(jQuery);
+		 </script>
+		<?php endif; ?>
+
 		<div id="content" class="site-content boxed" role="main">
 
 			<header class="page-header"><h1 class="page-header-title"><?php the_title(); ?></h1></header>
